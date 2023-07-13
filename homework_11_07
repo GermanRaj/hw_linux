@@ -1,0 +1,32 @@
+   0 mkdir /home/animals
+   1 ls
+   2 ls /home
+   3 mkdir /home/animals/dogs /home/animals/cats /home/animals/fish
+   4 tree /home
+   5 touch /animals/dogs/pluto
+   6 touch /home/animals/dogs/pluto
+   7 touch /home/animals/cats/garfield
+   8 touch /home/animals/fish/nemo
+   9 tree /animals
+  10 tree /home
+  11 ls
+  12 touch /tmp/adam
+  13 /ls -la
+  14 ls -la
+  15 tree /tmp
+  16 mkdir /home/humans
+  17 tree /home
+  18 cp /tmp/adam /home/humans
+  19 tree /home
+  20 tree /tmp
+  21 touch /tmp/evA.txt
+  22 tree /tmp
+  23 ls
+  24 mv /tmp/evA /opt/eve
+  25 mv /tmp/evA.txt /opt/eve.txt
+  26 tree /tmp
+  27 tree /opt
+  28 mv /opt/eve.txt /home/humans
+  29 tree /home
+  30 history
+  31 history > homework_11_07
