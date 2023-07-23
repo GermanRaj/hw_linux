@@ -8,7 +8,7 @@
    7 history | tail -5
    8 history | tail -5 >> /tmp/hw3/newfile/germans/germans.txt 
    9 cat /tmp/hw3/newfile/germans/germans.txt 
-  10 lscpu | grep X | awk '{print $1}' >> /tmp/hw3/newfile/germans/germans.txt 
+  10 lscpu | grep X | awk '{print $2}' >> /tmp/hw3/newfile/germans/germans.txt 
   11 cat /tmp/hw3/newfile/germans/germans.txt 
   12 history
   13 history > history_23_07.txt
