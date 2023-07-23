@@ -1,0 +1,14 @@
+   0 mkdir -p /tmp/hw3/newfile/germans && touch /tmp/hw3/newfile/germans/germans.txt
+   1 tree /tmp
+   2 cat /tmp
+   3 echo "Homework 3" >> /tmp/hw3/newfile/germans/germans.txt 
+   4 cat /tmp/hw3/newfile/germans/germans.txt 
+   5 df -h | head -2 >> /tmp/hw3/newfile/germans/germans.txt 
+   6 cat /tmp/hw3/newfile/germans/germans.txt 
+   7 history | tail -5
+   8 history | tail -5 >> /tmp/hw3/newfile/germans/germans.txt 
+   9 cat /tmp/hw3/newfile/germans/germans.txt 
+  10 lscpu | grep X | awk '{print $1}' >> /tmp/hw3/newfile/germans/germans.txt 
+  11 cat /tmp/hw3/newfile/germans/germans.txt 
+  12 history
+  13 history > history_23_07.txt
