@@ -1,0 +1,18 @@
+#!/bin/bash
+ 
+ 
+ 
+    for run in {1..10}
+    do
+    date '+%T'
+    echo -n $run
+#   sleep 5
+    done
+
+
+mkdir -p /german
+cat /proc/cpuinfo >> /german/folder.txt
+cat /etc/os-release | grep Alp | head -1 >> /german/folder.txt
+cat /etc/os-release | grep NAME | head -1 | sed 's/NAME="//' | sed
+'s/Linux"//' 
+
